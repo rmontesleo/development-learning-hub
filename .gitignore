@@ -1,0 +1,48 @@
+# Ignore files and directories that should not be tracked by Git
+
+# Ignore Operative System files
+.DS_Store
+
+# IDE and editor configuration files
+.vscode
+.vs
+
+# Environment-specific files
+.env
+**/.env
+environment_variables
+**/environment_variables
+
+# Token files
+token_file
+**/token_file
+
+# SHH keys and certificates
+*.pem
+**/*.pem
+
+# Zip Files
+*.zip
+**/*.zip
+
+# Avoid required files to upload and downloaded inside any demo directory
+**/demos/files_to_upload/**
+**/demos/downloads/**
+
+# Permit version the .gitkeep files inside demos/downloads and demos/files_to_upload directories
+!**/demos/files_to_upload/.gitkeep
+!**/demos/downloads/.gitkeep
+
+
+# Ignore Python cache files
+__pycache__
+**/__pycache__
+
+
+# Ignore Node.js modules
+node_modules
+**/node_modules
+
+
+# Terraform files
+
